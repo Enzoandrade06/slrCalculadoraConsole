@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using prjCalculadoraConsole;
 
-namespace prjCalculadoraConsole
+namespace CalculadoraBibliotecaa
 {
-    internal class CalculadoraAvancada : Calculadora
+    public class CalculadoraAvancada : Calculadora
     {
         public double Potencia(double baseNum, double expoente)
         {

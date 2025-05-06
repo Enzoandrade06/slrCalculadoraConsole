@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prjCalculadoraConsole", "prjCalculadoraConsole\prjCalculadoraConsole.csproj", "{A0130DC9-AB02-44C1-93C3-82284343EE78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraBibliotecaa", "CalculadoraBibliotecaa\CalculadoraBibliotecaa.csproj", "{29007FF1-773A-4994-A1B0-5361E03AEAD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A0130DC9-AB02-44C1-93C3-82284343EE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0130DC9-AB02-44C1-93C3-82284343EE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0130DC9-AB02-44C1-93C3-82284343EE78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29007FF1-773A-4994-A1B0-5361E03AEAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29007FF1-773A-4994-A1B0-5361E03AEAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29007FF1-773A-4994-A1B0-5361E03AEAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29007FF1-773A-4994-A1B0-5361E03AEAD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
