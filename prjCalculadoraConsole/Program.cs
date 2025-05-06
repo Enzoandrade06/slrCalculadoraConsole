@@ -4,14 +4,24 @@
     {
         static void Main(string[] args)
         {
-            var result = Somar(10, 10);   
-            Console.WriteLine("10 + 10 é igual a: ");
-            Console.WriteLine(result);
-        }
-        static double Somar(double x, double y)
-        {
+            // Calculadora calc = new Calculadora();
+            CalculadoraAvancada calcAdv = new CalculadoraAvancada();
+
+            Console.Write("10 + 10 = ");
+            Console.WriteLine(calcAdv.Somar(10, 10));
+
+            Console.Write("10 - 10 = ");
+            Console.WriteLine(calcAdv.Subtrair(10, 10));
+
+            Console.Write("10 * 10 = ");
+            Console.WriteLine(calcAdv.Multiplicar(10, 10));
+
+            Console.Write("10 / 10 = ");
+            Console.WriteLine(calcAdv.Dividir(10, 10));
+
             
-            return x + y;
+            Console.Write("2 ^ 2 = ");
+            Console.WriteLine(calcAdv.Potencia(2, 2));
         }
     }
 }
